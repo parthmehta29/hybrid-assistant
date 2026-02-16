@@ -1,0 +1,40 @@
+# Python Runtime
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+wanderon/
+
+# Environment Variables (CRITICAL)
+.env
+.env.local
+
+# Local Data & Vector Store
+# Ignore ChromaDB binary data (it's regenerated on startup anyway)
+data/chroma_db/
+# Ignore runtime feedback data
+data/feedback.json
+
+# Logs
+logs/
+*.log
+*.jsonl
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+check_models.py
+test_components.py
