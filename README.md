@@ -10,9 +10,6 @@ A production-grade AI system that intelligently routes user queries to the most 
 - **Guardrails:** Input token limits, output validation, and confidence thresholds.
 - **Observability:** Structured JSON logging for all requests.
 
-## Architecture
-See [Architecture Document](architecture_ai_assignment.md) for full details.
-
 ### System Flow
 1. **User Query** -> **Guardrails** (Length check)
 2. **Router** decides path:
